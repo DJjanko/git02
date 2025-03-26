@@ -1,7 +1,7 @@
 #include "buffer.h"
 
 int main(){
-    uint16_t *buffer = buffer_alloc(14);
+    uint16_t *buffer = buffer_alloc(7);
 
     buffer_fill(buffer);
 
